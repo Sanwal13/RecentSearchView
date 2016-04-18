@@ -4,14 +4,11 @@ import android.app.Activity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteCursor;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.SearchView;
+
+/**
+ * Created by Sanwal Singh on 18/4/16.
+ */
 
 public class MainActivity extends Activity implements SearchView.OnQueryTextListener,
         SearchView.OnSuggestionListener {
